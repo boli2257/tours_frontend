@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.kartya{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.CardImg{
+  aspect-ratio: 1.1;
+  object-fit: cover;
+}
+.fejlec{
+  display: flex;
+  justify-content: center;
+}
