@@ -1,26 +1,77 @@
 *{
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1200px;
+}body{
+
+  
+  background: #d5a1ff;
+background: linear-gradient(90deg,rgba(213, 161, 255, 1) 0%, rgba(189, 101, 252, 1) 52%, rgba(119, 0, 255, 1) 100%);
 }
-.container{
-  margin: 0 auto;
+.mycontainer{
+  border: none;
   display: flex;
-  justify-content: center;
+  min-height: 91vh;
   align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 10px;
 }
 .kartya{
+  max-width: 300px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  
 }
-.CardImg{
+.kartyatest{
+height: 130px;
+}
+.kartyacim{
+height: 50px;
+}
+.kartyagomb{
+height: 50px;
+}
+#kep{
   aspect-ratio: 1.1;
   object-fit: cover;
+  border-radius: 5px 5px 0px 0px;
 }
 .fejlec{
+  top: 0;
+  font-weight: bold;
+  font-size: larger;
+  color: #f0deff;
+  display: flex;
+  justify-content: center;  
+}
+.lab{
+  font-weight: bold;
+  font-size: larger;
+  color: #f0deff;
+  display: flex;
+  justify-content: center;  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.lab, .fejlec{
+  background: #f0deff;
+background: linear-gradient(90deg,rgba(240, 222, 255, 1) 0%, rgba(189, 101, 252, 1) 52%, rgba(119, 0, 255, 1) 100%);
+}
+#modalkep{
+  border-radius: 15px 15px 15px 15px;
+}
+@media only screen and (max-width: 1500px) {
+  .lab {
+   font-weight: bold;
+  font-size: larger;
+  color: #f0deff;
   display: flex;
   justify-content: center;
+  bottom: auto;  
+  position: absolute;
+  width: 100%; 
+  }
 }
